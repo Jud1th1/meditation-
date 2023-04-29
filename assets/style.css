@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--main-text);
+  font-weight: 400;
 }
 
 :root {
@@ -13,12 +14,6 @@
   --main-text:'Raleway', sans-serif;
   --title-text:'Braah One', sans-serif;
 }
-
-body {
-  background-color: var(--main-color);
-  font-family: var(--main-text);
-}
-
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -68,4 +63,86 @@ hr{
 }
 
 /*========== Cover Page ==========*/
+.explore_container{
+  max-width: 415px;
+  height: 100vh;
+  margin: auto;
+  background-color: var(--main-color);
+  padding: 25px;
+}
 
+.main_image{
+  width: 100%;
+  height: 240px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.explore{
+  padding: 15px 0px;
+}
+
+.search-container{
+  align-items: center;
+  margin: auto;
+  padding: 0 1em;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+/*Video Section*/
+.swiper{
+  margin-top: 1.33em;
+  height: 250px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide{
+  align-items: center;
+  width: 140px;
+  margin-right: 10px;
+}
+
+.video__img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video__data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Affirmation Section*/
+.affirmation_container{
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 390px){
+
+  
+
+}

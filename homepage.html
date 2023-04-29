@@ -10,42 +10,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
     <!--========Stylesheet========-->
     <link rel="stylesheet" href="./assets/style.css">
+    <!--========Swiper JS========-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>Serenity Now</title>
 </head>
 <body>
-    <div class="explore_container">
-        <img src="" alt="">
+    <main class="explore_container">
+        <img src="assets/img/sunset.jpg" alt="sunset over the hills" class="main_image">
         <!--========Explore & Search========-->
-        <div>
+        <div class="explore">
             <h2>Explore Page</h2>
+            <br>
             <p>Search our library for the sounds that soothes you</p>
         </div>
-        <input type="text" placeholder="Search..">
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
 
         <!--========Recommended========-->
-        <h2>Recommended for you</h2>
-        <div class="playlist_grid">
-            <div class="video_placeholder">
-                <img src="" alt="">
-                <button class="play_button"></button>
-                <h3>Seaside Serenade</h3>
-                <h4>Meditation</h4>
+        <section class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!----------Video 1---------->
+              <div class="swiper-slide">
+                <img src="assets/img/beach.jpg" alt="" class="video__img">
+                <div class="video__data">
+                    <h3 class="video__title">Beach Serenade</h3>
+                    <span class="video__description">Meditation</span>
+                </div>
+                </div>
+             <!----------Video 2---------->
+             <div class="swiper-slide">
+                <img src="assets/img/leaves.jpg" alt="clean water image" class="video__img">
+                <div class="video__data">
+                    <h3 class="video__title">Stormy Serenade</h3> 
+                    <span class="video__description">Meditation</span>
+                </div>
             </div>
-            <div class="video_placeholder">
-                <img src="" alt="">
-                <button class="play_button"></button>
-                <h3>Stormy Serenade</h3>
-                <h4>Meditation</h4>
+            <!----------Video 3---------->
+            <div class="swiper-slide">
+                <img src="assets/img/coffee.jpg" alt="" class="video__img">
+                <div class="video__data">
+                    <h3 class="video__title">Jazz Serenade</h3>
+                    <span class="video__description">Meditation</span>
+                </div>
             </div>
-            <div class="video_placeholder">
-                <img src="" alt="">
-                <button class="play_button"></button>
-                <h3>Jazz Serenade</h3>
-                <h4>Meditation</h4>
             </div>
-        </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </section>
+
 
         <!--========Affirmation========-->
+        <section class="affirmation_container">
         <h2>Daily Affirmation</h2>
         <img src="" alt="">
         <div class="affirmation">
@@ -53,6 +83,10 @@
             <h3>Morning Playlist | 20 min </h3>
             <button class="play_button"></button>
         </div>
-    </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>
