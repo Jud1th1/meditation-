@@ -42,36 +42,45 @@
               <!----------Video 1---------->
               <div class="swiper-slide">
                 <div class="video__wrapper">
-                    <img src="assets/img/beach.jpg" alt="beach at sunset" class="video__img beach__img">
-                    <a href="#" class="play__btn"></a>
+                  <img src="assets/img/beach.jpg" alt="beach at sunset" class="video__img beach__img">
+                  <a href="#" class="play__btn" data-src="assets/videos/beach.mp4" data-duration="300"></a>
                 </div>
                 <div class="video__data">
-                    <h3 class="video__title">Beach Serenade</h3>
-                    <span class="video__description">Meditation</span>
+                  <h3 class="video__title">Beach Serenade</h3>
+                  <span class="video__description">Meditation</span>
                 </div>
-                </div>
-             <!----------Video 2---------->
-             <div class="swiper-slide">
+                <video class="video__player" loop>
+                  <source src="" type="video/mp4">
+                </video>
+              </div>
+              <!----------Video 2---------->
+              <div class="swiper-slide">
                 <div class="video__wrapper">
-                    <img src="assets/img/leaves.jpg" alt="plants with rain droplets" class="video__img">
-                    <a href="#" class="play__btn"></a>
+                  <img src="assets/img/leaves.jpg" alt="plants with rain droplets" class="video__img">
+                  <a href="#" class="play__btn play__btn2" data-src="assets/videos/rain.mp4" data-duration="300"></a>
                 </div>
                 <div class="video__data">
-                    <h3 class="video__title">Stormy Serenade</h3> 
-                    <span class="video__description">Meditation</span>
+                  <h3 class="video__title">Stormy Serenade</h3> 
+                  <span class="video__description">Meditation</span>
                 </div>
-            </div>
-            <!----------Video 3---------->
-            <div class="swiper-slide">
+                <video class="video__player" loop>
+                  <source src="" type="video/mp4">
+                </video>
+              </div>
+              <!----------Video 3---------->
+              <div class="swiper-slide">
                 <div class="video__wrapper">
-                    <img src="assets/img/coffee.jpg" alt="coffee cup with art design" class="video__img">
-                    <a href="#" class="play__btn"></a>
+                  <img src="assets/img/coffee.jpg" alt="coffee cup with art design" class="video__img">
+                  <a href="#" class="play__btn play__btn3" data-src="assets/videos/coffee.mp4" data-duration="600"></a>
                 </div>
                 <div class="video__data">
-                    <h3 class="video__title">Jazz Serenade</h3>
-                    <span class="video__description">Meditation</span>
+                  <h3 class="video__title">Jazz Serenade</h3>
+                  <span class="video__description">Meditation</span>
                 </div>
-            </div>
+                <video class="video__player" loop>
+                  <source src="assets/videos/coffee.mp4" type="video/mp4">
+                </video>
+              </div>
             </div>
             <div class="swiper-pagination"></div>
           
@@ -79,7 +88,7 @@
             <div class="swiper-button-next"></div>
           
             <div class="swiper-scrollbar"></div>
-        </section>
+          </section>
 
 
         <!--========Affirmation========-->
@@ -89,13 +98,15 @@
             <div class="video__wrapper">
                 <h2 class="playlist">I AM Playlist</h2>
                 <h3>Morning Playlist | 20 min </h3>
-                <a href="#" class="play__btn2"></a>
+                <a href="#" class="playbtn2"></a>
             </div>
         </div>
         </section>
     </main>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
