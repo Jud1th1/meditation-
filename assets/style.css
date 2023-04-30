@@ -84,9 +84,11 @@ hr{
 }
 
 .search-container{
-  align-items: center;
+  position: relative;
   margin: auto;
   padding: 0 1em;
+  width: 100%;
+  max-width: 500px;
 }
 
 input[type=text] {
@@ -98,10 +100,33 @@ input[type=text] {
   background-color: var(--secondary-color);
 }
 
+.search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background-color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  font-size: 16px;
+}
+
 /*Video Section*/
+.recommend{
+  margin-top: 1.33em;
+}
+
 .swiper{
   margin-top: 1.33em;
-  height: 250px;
+  height: 200px;
   overflow-x: auto;
   white-space: nowrap;
 }
@@ -121,8 +146,13 @@ input[type=text] {
 
 .video__img{
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.beach__img{
+  height: 200px;
 }
 
 .video__data {
@@ -141,8 +171,60 @@ input[type=text] {
   margin-top: 2em;
 }
 
-@media screen and (max-width: 390px){
+.affirmation{
+  background-image: url(/assets/img/forest.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 126px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2em;
+}
 
-  
+.playlist{
+  font-weight: 800;
+}
 
+h3{
+  color: white;
+}
+
+
+/*Video Btn*/
+.video__wrapper {
+  position: relative;
+  display: inline-block;
+}
+.play__btn {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-image: url("./svg/button.svg");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 0.8;
+  z-index: 2;
+}
+.play__btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.play__btn2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 110%;
+  border-radius: 50%;
+  background-image: url("./svg/button.svg");
+  background-size: contain;
+  z-index: 1;
+}
+
+.play__btn:hover {
+  opacity: 1;
+  cursor: pointer;
 }
