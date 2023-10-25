@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Fonts========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <!--========Stylesheet========-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/8bc929afbc.js" crossorigin="anonymous"></script>
+     <!--Favicon-->
+     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+     <link rel="manifest" href="/assets/site.webmanifest">
+    <title>Jazz</title>
+</head>
+<body class="window">
+    <main class="beach_container">
+        <video id="background-video" autoplay loop muted poster="./assets/img/coffee.jpg">
+            <source src="./assets/video/coffee.mp4" type="video/mp4">
+        </video>
+        <a href="homepage.html" class="exit-btn">X</a>
+        <div class="timer_container">
+            <h1 class="timer_title">Jazz Serenade</h1>
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+        
+                <a id="reset" href="javascript:void(0)" style="display:none;" onclick="reset()"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                <button id="pause" style="display:none;" onclick="pause()">Pause</button>
+
+                 <!-- Audio Element -->
+                <audio id="sound" autoplay="false">
+                    <source src="./assets/sounds/cold_noodles.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+    </main>
+</body>
+</html>
