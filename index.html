@@ -1,57 +1,822 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--========Fonts========-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
-  <!--========Stylesheet========-->
-  <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="./assets/coffee.css">
-  <title>Meditation App</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Judith's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon-16x16.png" rel="icon">
+  <link href="img/android-chrome-192x192.png" rel="touch-icon">
+  <script src="https://kit.fontawesome.com/8bc929afbc.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+  
 </head>
+
 <body>
-   
-<div class="container">
-  <div class="coffee-container">
-    <h1 class="title">Serenity Now</h1>
-    <hr>
-    <h2 class="subtitle">Meditation App</h2>
-      <div class="plate"></div>
-      <div class="cup">
-          <div class="top">
-              <div class="vapour">
-                  <span style="--i:1;"></span>
-                  <span style="--i:3;"></span>
-                  <span style="--i:16;"></span>
-                  <span style="--i:5;"></span>
-                  <span style="--i:13;"></span>
-                  <span style="--i:20;"></span>
-                  <span style="--i:6;"></span>
-                  <span style="--i:7;"></span>
-                  <span style="--i:10;"></span>
-                  <span style="--i:8;"></span>
-                  <span style="--i:17;"></span>
-                  <span style="--i:11;"></span>
-                  <span style="--i:12;"></span>
-                  <span style="--i:14;"></span>
-                  <span style="--i:2;"></span>
-                  <span style="--i:9;"></span>
-                  <span style="--i:15;"></span>
-                  <span style="--i:4;"></span>
-                  <span style="--i:19;"></span>
-              </div>
-              <div class="circle">
-                  <div class="tea"></div>
-              </div>
-          </div>
-          <div class="handle"></div>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Judith Jean-Francois</a></h1>
+      <h2>I'm a passionate <span>Front End Developer | UX Designer</span> from Tampa</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="www.linkedin.com/in/judith-jean-francoisdesigner" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Jud1th1" class="github"><i class="fa-brands fa-github"></i></a>
+        <a href="https://codepen.io/Jud1th1" class="codepen"><i class="fa-brands fa-codepen"></i></a>
+        <a href="https://dribbble.com/JudithonDribble" class="dribbble"><i class="bi bi-dribbble"></i></a>
+        <a href="https://www.behance.net/judithjean-fr" class="behance"><i class="bi bi-behance"></i></a>
       </div>
-  </div>
-  <a href="homepage.html" class="enter">Let's Relax</a>
-</div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="img/me3.PNG" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Front End Developer | UX Designer</h3>
+          <p class="fst-italic">
+            "Front-End Developer and UX Designer with expertise in creating engaging and user-friendly web interfaces."
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tampa, USA</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>November</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jf.jud1th1@gmail.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            "Hello! I'm Judith, a Front-End Developer and UX Designer with a passion for creating beautiful and inclusive digital experiences. With a background in front-end development, I bring designs to life, ensuring they're both aesthetically pleasing and user-friendly. My work revolves around making designs intuitive, accessible, and impactful. Beyond design, I love art, coffee, and spending time with my cats, bringing a unique blend of creativity and technical expertise to every project."
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Years Experience</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Practice</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Programming Languages</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">React <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+
+          <div class="progress">
+            <span class="skill">Bootstrap <i class="val">50%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Adobe XD/Figma <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Adobe InDesign <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Adobe Illustrator <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Microsoft PowerPoint| Word | Excel | Outlook <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">WordPress/CMS <i class="val">10%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-handshake-angle" style="color: #f8ad9d;"></i>
+            <h3>Volunteering</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="fa-solid fa-plane" style="color: #a9d6e5;"></i>
+            <h3>Travel</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="fa-solid fa-hammer" style="color: #f8ad9d;"></i>
+            <h3>Arts&Crafts</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="fa-solid fa-brush" style="color: #b8c0ff;"></i>
+            <h3>Painting</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-masks-theater" style="color: #b8c0ff;"></i>
+            <h3>Theatre</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-book-open-reader" style="color: #84a98c;"></i>
+            <h3>Reading</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-mug-hot" style="color: #fbc4ab;"></i>
+            <h3>Coffee</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-music" style="color: #52796f;"></i>
+            <h3>Music</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-video" style="color: #52796f;"></i>
+            <h3>Movies</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-magnifying-glass" style="color: #f8ad9d;"></i>
+            <h3>Mystery</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-podcast" style="color: #a9d6e5;"></i>
+            <h3>Podcasts</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="fa-solid fa-gem" style="color: #84a98c;"></i>
+            <h3>Sims 4</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+  
+    <!-- ======= Insert Testimonials ======= -->
+    
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Judith Jean-Francois</h4>
+            <p><em>As a Junior Front-End Developer and UX Designer, I am driven by a passion for creating visually appealing websites that deliver an exceptional user experience. I am constantly learning new skills and technologies to enhance my design and development abilities, with a particular focus on web accessibility. My expertise in HTML, CSS, JavaScript, and user interface design enables me to craft engaging and user-friendly websites. I am committed to designing with inclusivity in mind and staying up-to-date with the latest accessibility guidelines and best practices.</em></p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Front End Development Diploma</h4>
+            <h5>2023</h5>
+            <p><b>Computer Coach - Tampa, FL</b></p>
+            <p>
+              <ul>
+                <li>Completed an immersive course in HTML, CSS, and JavaScript, gaining strong coding skills for front-end web development.</li>
+                <li>Applied user-centered design principles, web accessibility, and responsive design techniques to create engaging and accessible websites.</li>
+                <li>Proficient in React.js, WordPress, and wireframing/prototyping tools, enabling the creation of interactive and dynamic web experiences.</li>
+                <li>Demonstrated excellent teamwork and communication skills through presentations and collaborative work.</li>
+                <li>Acquired hands-on experience in Bootstrap for efficient layout design.</li>
+                <li>Earned certificates in React, showcasing dedication to staying current with modern front-end development technologies.</li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Associates of Science in Digital Media/Multimedia Technology</h4>
+            <h5>2020 - 2022</h5>
+            <p><b>Hillsborough Community College - Tampa, FL</b></p>
+            <p>
+              <ul>
+                <li>Developed strong skills in multimedia design, including audio and video editing, writing, animation, and using various presentation tools.</li>
+                <li>Studied Web design, UX/UI design, and programming principles, gaining a comprehensive understanding of these disciplines.</li>
+                <li>Completed hands-on projects utilizing Adobe Suites, Brackets, Audacity, and Microsoft tools, showcasing practical experience in multimedia design.</li>
+                <li>Recognized for academic excellence with inclusion in the Dean's List during Spring 2021 completion.</li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Bachelor of Science in Health Science</h4>
+            <h5>2013 - 2016</h5>
+            <p><b>University of South Florida - Tampa, FL</b></p>
+            <p>
+              <ul>
+                <li>Completed coursework in anatomy and physiology, pharmacology, medical terminology, and health promotion.</li>
+                <li>Completed concentrations in Biological Health Sciences and Social/Behavioral Health Sciences.</li>
+                <li>Developed skills in research methods and data analysis.</li>
+              </ul>
+            </p>
+          </div>
+
+         <!-- Skills Section -->
+            <div class="resume-item">
+              <h3 class="resume-title">Skills</h3>
+              <div class="row">
+                  <div class="col-sm">
+                      <p><b>Front-End Development:</b></p>
+                      <ul class="resume-list">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                          <li>React JS</li>
+                          <li>Bootstrap</li>
+                      </ul>
+
+                      <p><b>Design Skills:</b></p>
+                      <ul class="resume-list">
+                          <li>Wireframing</li>
+                          <li>Prototyping</li>
+                          <li>Mockups</li>
+                          <li>User Interface Design</li>
+                          <li>Graphic Design/Illustration</li>
+                          <li>Design Thinking</li>
+                      </ul>
+
+                      <p><b>User-Centered Design:</b></p>
+                      <ul class="resume-list">
+                          <li>User Research</li>
+                          <li>Web Accessibility</li>
+                          <li>Usability Testing</li>
+                      </ul>
+                  </div>
+
+                  <div class="col-sm">
+                      <p><b>Additional Skills:</b></p>
+                      <ul class="resume-list">
+                          <li>Data Entry</li>
+                          <li>Microsoft Office (including Word, Excel, PowerPoint)</li>
+                          <li>Adobe InDesign, Illustrator, Photoshop, XD</li>
+                          <li>Figma</li>
+                          <li>Object-Oriented Programming in JavaScript</li>
+                      </ul>
+
+                      <p><b>Soft Skills:</b></p>
+                      <ul class="resume-list">
+                          <li>Great Time Management</li>
+                          <li>Highly Organized</li>
+                          <li>Leadership Skills</li>
+                          <li>Collaboration and Teamwork</li>
+                          <li>Quick Learner</li>
+                          <li>Marketing and Presentation Skills</li>
+                      </ul>
+
+                      <p><b>Language Proficiency:</b></p>
+                      <ul class="resume-list">
+                          <li>Fluent in English</li>
+                          <li>Fluent in Haitian Creole</li>
+                      </ul>
+                  </div>
+              </div> 
+            </div>
+
+
+             
+        </div> <!--end of column-->
+
+
+
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <!-- Job 1 -->
+          <div class="resume-item">
+            <h4>Lead Office Agent</h4>
+            <h5>2023 - Present</h5>
+            <p><b>Alliance Ground International</b> - Tampa, FL</p>
+            <p>
+            <ul>
+              <li>Provided exceptional customer service and maintained a professional environment by managing front desk reception, greeting visitors, and addressing inquiries.</li>
+              <li>Collaborated with airlines such as Delta and Virgin Atlantic to ensure compliance with regulations and smooth cargo acceptance and delivery processes.</li>
+              <li>Developed strong organizational skills by implementing an efficient office file system, enhancing productivity, and enabling quick record retrieval.</li>
+              <li>Demonstrated multitasking abilities and attention to detail in a fast-paced environment, meeting deadlines while managing various responsibilities.</li>
+              <li>Adapted quickly to changing priorities and showcased flexibility in handling dynamic projects effectively.</li>
+            </ul>
+            </p>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="resume-item">
+            <h4>Training Coordinator</h4>
+            <h5>2017 - 2022</h5>
+            <p><b>CapTel Service Specialist</b> – Tampa, FL</p>
+            <p>
+              <ul>
+                <li>Managed training department administrative team, enhancing communication, teamwork, and productivity.</li>
+                <li>Coordinated new hire onboarding process, ensuring smooth transitions through scheduling, paperwork, and materials coordination.</li>
+                <li>Updated and tested software tools, enhancing company production and improving the customer experience. Demonstrated attention to detail in data analysis and updates to training materials.</li>
+                <li>Adapted to policy updates and changes in attendance/staffing due to COVID, showcasing flexibility and adaptability in a changing environment.</li>
+                <li>Collaborated with cross-functional teams, including Human Resources, Floor Operations, and IT, to support comprehensive training initiatives and created engaging multimedia communications for center events/updates.</li>
+                <li>Conducted interviews and trained new staff members, facilitating effective onboarding and performance evaluations.</li>
+                <li>Managed payroll for team members and trainees, ensuring accurate and timely processing of pay and benefits.</li>
+              </ul>
+              </p>
+              <p>
+                <b><em>Previous Role:</em> Supervisor/Trainer</b>
+                <ul>
+                  <li>Supervised and trained a team of 15-20 captioning assistants, ensuring quality assurance, adherence to policies, and meeting tight deadlines.</li>
+                  <li>Provided coaching, support, and comprehensive training to incoming captioning assistants, covering job details, responsibilities, policies, and education on the deaf and hard of hearing community.</li>
+                  <li>Administered quality assessments to evaluate trainee proficiency and maintained constant communication with administrative members regarding trainee status, attendance, and policy compliance.</li>
+                  <li>Improved team performance through effective direction, hands-on support, and ongoing monitoring of employee performance, addressing issues, providing retraining, and implementing disciplinary actions as necessary to enhance productivity.</li>
+                </ul>
+              </p>
+              <p>
+                <b><em>Previous Role:</em> Captioning Assistant</b>
+                <ul>
+                  <li>Captioned calls for clients in the deaf and hard of hearing community, delivering exceptional service by utilizing speech recognition software and typing skills.</li>
+                  <li>Maintained adherence to established transcription formats when completing captioning services, ensuring accuracy and consistency.</li>
+                </ul>
+            </p>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="resume-item">
+            <h4>Server/Captain</h4>
+            <h5>2015 - 2017</h5>
+            <p><b>University Village</b>– Tampa, FL</p>
+            <p>
+            <ul>
+              <li>Contributing to food service-related operations in the dining room and room service, collaborating with party coordination (decorating and setting up events), as well as assisting with seating and greeting people while extending great customer service.</li>
+              <li>Arranged and prepared tables for customers to offer memorable experiences to guests and foster repeat business</li>
+              <li>Noted special patron requests and followed up with kitchen to confirm delivery</li>
+              <li>Able to adapt to change quickly, ability to abide by and share organizational values, able to work well in a fast-paced environment.</li>
+            </ul>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <h4><a href="">Web Development</a></h4>
+            <p>Website design and development using HTML, CSS, and JavaScript. Crafting responsive and dynamic web solutions to meet Stakeholder and User needs, from sleek and modern interfaces to powerful interactive applications.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <h4><a href="">Graphic Design</a></h4>
+            <p>Creating and designing visually captivating graphics, logos, and branding elements using industry-standard design software such as Adobe Photoshop and Illustrator. Transforming ideas into striking visuals that leave a lasting impression.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h4><a href="">UX Research</a></h4>
+            <p>Conducting in-depth user research and usability testing to gain valuable insights into user needs and pain points. Developing well-rounded personas and user scenarios to inform every aspect of the design process, ensuring user-centric solutions.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h4><a href="">UI Design</a></h4>
+            <p>Designing intuitive and visually appealing user interfaces (UI) using design tools like Figma, Sketch, Canva or Adobe XD. From wireframes to interactive prototypes, I create engaging design concepts and seamless user flows.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+            <h4><a href="">Mockups</a></h4>
+            <p>Designing low-fidelity and high-fidelity mockups that vividly illustrate design concepts to stakeholders. Conducting heuristic evaluations to identify design issues and seize opportunities for continuous improvement, ensuring every project shines.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+            <h4><a href="">Administrative Tasks</a></h4>
+            <p>Handling data entry and proficiently managing databases to keep information organized and easily accessible. Efficiently managing schedules and calendars, ensuring optimal team coordination. Providing invaluable general administrative support to enhance team efficiency.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Work</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-mobile">Mobile</li>
+            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-ux">UX</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/CartMateCoverImg.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>CartMate</h4>
+              <p>Mobile App</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/CartMate.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="CartMate Grocery List App"><i class="bx bx-plus"></i></a>
+                <a href="portfolio1.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/Hometownimg.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Hometown Homepage</h4>
+              <p>Webpage</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/hometown.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hometown Homepage for Naples, Fl"><i class="bx bx-plus"></i></a>
+                <a href="portfolio2.html" data-gallery="portfoFlioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ux">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/Radius.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Neighbors Helping Neighbors</h4>
+              <p>UX</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/RADVideo.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Radius Church - Neighbors Helping Neighbors Thanksgiving 2023"><i class="bx bx-plus"></i></a>
+                <a href="portfolio3.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/RUSH.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>RUSH ORG</h4>
+              <p>Webpage</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/RUSH Video.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Website Pitch for RUSH - Rise Up Serve Haiti Org"><i class="bx bx-plus"></i></a>
+                <a href="portfolio4.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/image4.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Meditation App</h4>
+              <p>Mobile</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/Serenity Now.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Serenity Now - Meditation App"><i class="bx bx-plus"></i></a>
+                <a href="portfolio5.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/MixxiWeb.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>MixxiLash</h4>
+              <p>Webpage</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio6.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/BeatwiseWeb.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Beatwise</h4>
+              <p>Webpage</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio7.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ux">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/ArtGalleryApp.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Art Gallery</h4>
+              <p>UX</p>
+
+              <div class="portfolio-links">
+                <a href="img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio8.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-ux">
+          <div class="portfolio-wrap">
+            <img src="img/portfolio/MovieApp.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Movie App</h4>
+              <p>UX</p>
+              <div class="portfolio-links">
+                <a href="img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio9.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="codepen"><i class="fa-brands fa-codepen"></i></a>
+              <a href="#" class="dribbble"><i class="bi bi-dribbble"></i></a>
+              <a href="#" class="behance"><i class="bi bi-behance"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>jf.jud1th1@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
